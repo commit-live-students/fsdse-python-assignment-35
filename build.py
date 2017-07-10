@@ -1,6 +1,11 @@
 def solution(list1, list2):
     result = False
-    '''
-    Enter your code here
-    '''
+    for x in list1:
+        for y in list2:
+            if x == y:
+                result = True
+                return result
     return result
+
+print(solution([1,2,3,4,5], [5,6,7,8]))
+print(solution([1,2,3,4], [5,6,7,8]))
