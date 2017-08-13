@@ -1,6 +1,2 @@
 def solution(list1, list2):
-    result = False
-    '''
-    Enter your code here
-    '''
-    return result
+    return True if set(list1) & set(list2) else False
