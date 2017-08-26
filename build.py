@@ -1,6 +1,11 @@
 def solution(list1, list2):
-    result = False
-    '''
-    Enter your code here
-    '''
-    return result
+    for i in list2:
+        if i in list1:
+            return True
+        else:
+            return False
+
+
+list1 = []
+list2 = []
+solution(list1, list2)
