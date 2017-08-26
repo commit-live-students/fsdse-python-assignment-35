@@ -1,6 +1,2 @@
 def solution(list1, list2):
-    result = False
-    '''
-    Enter your code here
-    '''
-    return result
+    return True if ([x for x in list1 if x in list2] or [x for x in list2 if x in list1]) else False
