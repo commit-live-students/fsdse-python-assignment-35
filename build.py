@@ -3,4 +3,8 @@ def solution(list1, list2):
     '''
     Enter your code here
     '''
+    for x in list1:
+        for y in list2:
+            if x == y:
+                result = True
     return result
